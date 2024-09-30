@@ -1,0 +1,36 @@
+main{
+    background: rgb(20,65,58);
+    background: linear-gradient(0deg, rgba(20,65,58,1) 0%, rgba(0,19,43,1) 43%);
+    /* background-color: #01162F; */
+    /* background-image: url('/images/fndmain2.png'); */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.contenedor-main{
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+}
+.grid__main{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+@media(width>420px){
+    .grid__main{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(width>768px){
+    .grid__main{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.trabajos--titulo{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}

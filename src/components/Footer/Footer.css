@@ -1,0 +1,22 @@
+footer{
+    background: rgb(16,61,54);
+    background: linear-gradient(0deg, rgba(16,61,54,1) 0%, rgba(0,19,43,1) 1%);
+    padding-top: 3rem;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.linea{
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+    height: 3px;
+    background-color: rgb(44, 111, 187);
+    margin-top: 2rem;
+}
+.despedida, .derechos-reservados{
+    padding: 2rem 0;
+}

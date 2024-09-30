@@ -1,0 +1,95 @@
+header{     
+    background-color: rgb(32, 30, 37);
+    background-image: url('/images/fondoazul.webp');
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+h1{
+    text-align: center;
+}
+.mt2{
+    margin-top: 2rem;
+}
+/* navegacion */
+
+nav{
+    background-color: rgba(34, 34, 34, 0.438);
+    width: 100%;
+    position: fixed;
+    top: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+}
+.enlace--home{
+    color: #0f7e41;
+    font-weight: 800;
+}
+/* Presentacion */
+.presentacion{
+    text-align: center;
+    color: white;
+}
+@media(width>768px){
+    .presentacion{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media(width>768px){
+    .presentacion__descripcion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .presentacion__descripcion h1{
+        font-size: 5rem;
+    }
+    .presentacion__descripcion p{
+        font-size: 3rem;
+    }
+    .presentacion__descripcion h3{
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+    }
+}
+.presentacion p{
+    font-size: 2rem;
+}
+/* presentacion imagen */
+.presentacion__imagen{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+
+.img-movil{
+    width: 300px;
+}

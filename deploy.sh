@@ -18,7 +18,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # si estás desplegando en https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:BillyCastroB/trabajos-appsweb-moviles.git main:gh-pages
+git push -f git@github.com:BillyCastroB/trabajos-insti-apps.git main:gh-pages
 
 # volver al directorio anterior
 cd -
